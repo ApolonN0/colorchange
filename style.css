@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(15deg, white 30%, gray 70%);
+}
+html{
+    height: 100%;
+}
+img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+.card{
+    background: lavender;
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 25px;
+}
+.card_content{
+    margin-left: 50px;
+}
+h1{
+    text-align: center;
+    font-size: larger;
+    line-height: 2px;
+    margin: 0 0 10px
+}
+p{
+    line-height: 30px;
+    margin: 0 0 20px;
+}
+button{
+    font-size: large;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    border: 0;
+    background: rgb(200, 164, 186);
+    margin-left: 80px;
+    cursor: pointer;
+}
+body.dark{
+    background: linear-gradient(15deg, rgb(75, 75, 75) 30%, rgb(40, 39, 39) 70%);
+}
+body.dark .card{
+    background-color: silver;
+}
+body.dark button{
+    background: rgb(55, 55, 55);
+    color: silver;
+}
